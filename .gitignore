@@ -1,4 +1,5 @@
-# Vivado generated folders
+# Vivado generated directories
+.Xil/
 *.cache/
 *.gen/
 *.runs/
@@ -6,17 +7,18 @@
 *.hw/
 *.ip_user_files/
 
-# Logs
+# Vivado logs
 *.jou
 *.log
 *.str
 
+# Runtime files
+dfx_runtime.txt
+
 # Temporary files
 *.tmp
-
-# Backup files
 *~
 
-# OS files
+# Operating system files
 .DS_Store
 Thumbs.db
